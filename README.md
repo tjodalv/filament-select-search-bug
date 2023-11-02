@@ -28,7 +28,7 @@ cd filament-select-search-bug
 ./vendor/bin/sail composer install
 ```
 
-## 3. Migrate and seed the database
+## 4. Migrate and seed the database
 
 ```bash
 ./vendor/bin/sail artisan migrate --seed
@@ -36,7 +36,7 @@ cd filament-select-search-bug
 
 This will create sample products and default admin user to login to Filament panel.
 
-## 4. Login to admin panel
+## 5. Login to admin panel
 
 Open admin panel at location:
 
@@ -46,7 +46,7 @@ http://localhost:1234/admin
 
 Login with the default user: `test@test.com` and password `1234`.
 
-## 5. Create new order in filament panel
+## 6. Create new order in filament panel
 
 In the navigation click on the Orders and then button `New order`.
 
