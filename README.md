@@ -6,14 +6,26 @@
 
 ## 1. Clone the repo
 
-```
+```bash
 git clone https://github.com/tjodalv/filament-select-search-bug.git
+```
+
+Enter project's directory:
+
+```bash
+cd filament-select-search-bug
 ```
 
 ## 2. Start Laravel sail docker containers
 
-```
+```bash
 ./vendor/bin/sail up
+```
+
+## 3. Install composer dependencies
+
+```bash
+./vendor/bin/sail composer install
 ```
 
 ## 3. Migrate and seed the database
